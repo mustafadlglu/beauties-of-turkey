@@ -64,12 +64,127 @@
             color: #e5e7eb;
             padding: 10px 20px;
             border-radius: 12px;
+            cursor: pointer;
+            transition: all 500ms;
+        }
+
+        .hero-text button:hover{
+            background: #164b9f;
+            transition: all 500ms;
         }
 
         .hero-image video{
             border-radius: 20px;
         }
     }
+}
+
+.random-text{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.random-card{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.random-card .card{
+    width: 290px;
+    height: 460px;
+}
+
+.random-card .card img{
+    width: 250px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px black;
+    margin: 0px 10px;
+    box-sizing: content-box;
+    transition: all 700ms;
+}
+
+.random-card .card img:hover{
+    width: 260px;
+    transition: all 700ms;
+}
+
+.random-card .card blockquote{
+    font-size: 22px;
+    color: gray;
+    margin: 20px;
+    text-align: center;
+}
+
+.note{
+    background: #e5e7eb;
+    padding: 20px;
+    flex-direction: row;
+
+}
+
+.note q{
+    display: block;
+    font-size: 60px;
+    text-align: center;
+    margin: 50px 0px 20px;
+    color:slategray;
+}
+
+.note span{
+    width: 90%;
+    display: block;
+    font-size: 25px;
+    text-align: end;
+    color: gray;
+}
+
+.message{
+    background: #3882f6;
+    margin: 90px 180px;
+    padding: 35px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.message button{
+    border: 2px white solid;
+    background: transparent;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+    align-self: center;
+}
+
+.message-text h4{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #f9faf8;
+}
+
+.message-text p{
+    font-size: 18px;
+    color: #e5e7eb ;
+}
+
+.footer{
+    background: #1F2937;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer span{
+    font-size: 25px;
+    color: white;
 }
 
 
